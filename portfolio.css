@@ -1,0 +1,310 @@
+#body1 {
+  background-color: darkblue;
+}
+#body2 {
+  background-color: cyan;
+}
+#body3 {
+  background-color: blanchedalmond;
+}
+
+#body4 {
+  background-color: indigo;
+}
+
+.beginning {
+  margin: 1vh;
+}
+.heading1 {
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  margin: 0.5vw;
+  color: rgb(0, 189, 189);
+  transition: all 0.5s;
+}
+.heading2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  margin: 1.2vw;
+  color: rgb(240, 214, 128);
+  transition: all 0.5s;
+}
+
+nav {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  margin: 15vw;
+  background-color: pink;
+  border: 0.85vw double rgb(210, 0, 0);
+  border-radius: 1.5vh;
+  padding: 0.5vw;
+  font-size: 1.8vw;
+  font-weight: 600;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-self: center;
+  margin: 0.5vw;
+  padding: 1.3vw;
+}
+
+nav ul li {
+  display: inline-block;
+  font-family: "Kalnia", serif;
+  background-color: aqua;
+  border: 0.3vw solid;
+  border-radius: 2vh;
+  border-color: blue;
+  padding: 1.2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  justify-self: center;
+  transition: all ease-in-out 0.5s;
+}
+
+.option {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  background-color: rgb(243, 253, 98);
+  border-color: darkmagenta;
+}
+
+.heading1:hover {
+  color: aqua;
+}
+
+.heading2:hover {
+  color: rgb(255, 240, 107);
+}
+
+.option:hover {
+  color: red;
+  font-size: 2vw;
+}
+
+.experience {
+  font-size: 3.7vw;
+  color: rgb(235, 235, 3);
+  text-decoration: underline;
+  font-family: "Kalnia", serif;
+}
+
+.list {
+  font-size: 2.1vw;
+  color: blanchedalmond;
+  font-weight: 533;
+  font-family: "Domine", serif;
+}
+
+.heading3 {
+  display: flex;
+  justify-content: center;
+  font-size: 8vw;
+  margin: 0.5vw;
+  color: blue;
+}
+
+.intro {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(0, 124, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.quote {
+  font-size: 3.5vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.heading4 {
+  font-size: 2.5vw;
+  color: forestgreen;
+}
+
+.heading5 {
+  font-size: 3.5vw;
+}
+
+.picture1 {
+  border: blue solid;
+  width: 300px;
+  height: 200px;
+}
+.picture2 {
+  border: blue solid;
+  width: 337.6px;
+  height: 225px;
+}
+
+.picture3 {
+  border: blue solid;
+  width: 409.2px;
+  height: 225px;
+}
+
+.picture4 {
+  border: blue solid;
+  width: 211px;
+  height: 281.25px;
+}
+
+.picture5 {
+  border: blue solid;
+  width: 311.5px;
+  height: 202.5px;
+}
+
+.picture6 {
+  border: blue solid;
+  width: 414px;
+  height: 225.8px;
+}
+
+.picture7 {
+  border: blue solid;
+  width: 409.2px;
+  height: 225px;
+}
+
+.picture8 {
+  border: blue solid;
+  width: 354.6px;
+  height: 225px;
+}
+
+.picture9 {
+  border: blue solid;
+  width: 374.8px;
+  height: 225px;
+}
+
+.picture10 {
+  border: blue solid;
+  width: 424.6px;
+  height: 225px;
+}
+.picture {
+  margin: 1vw;
+}
+.pictures {
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  border: 0.5vw solid darkviolet;
+}
+.heading6 {
+  display: flex;
+  color: brown;
+  font-size: 6vw;
+  justify-content: center;
+  margin: 1vw;
+}
+
+.starts {
+  margin: 1vw;
+}
+
+.heading7 {
+  display: flex;
+  justify-content: center;
+  font-size: 7vw;
+  color: rgb(255, 138, 138);
+}
+
+.heading8 {
+  display: flex;
+  justify-content: center;
+  font-size: 5vw;
+  color: lime;
+}
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  nav {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    font-size: 2.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 425px) {
+  nav {
+    font-size: 2vh;
+  }
+  nav ul {
+    width: 65vw;
+    text-align: center;
+  }
+  nav ul li {
+    width: 18vw;
+    text-align: center;
+  }
+  .experience {
+    font-size: 4.5vw;
+    font-weight: 550;
+  }
+  .list {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .heading1 {
+    font-size: 6vh;
+  }
+  .heading2 {
+    font-size: 4.5vh;
+  }
+  nav {
+    font-size: 2vh;
+    text-align: center;
+  }
+  .experience {
+    font-size: 3vh;
+    font-weight: 550;
+  }
+  .list {
+    font-size: 2vh;
+  }
+}
+
+.list100 {
+  list-style: none;
+  color: white;
+}
+.list100 li a {
+  color: white;
+  font-size: 3.5vh;
+  line-height: 5vh;
+}
+
+.list100 li a:hover {
+  color: pink;
+}
+
+.platforms {
+  color: cyan;
+  font-size: 5vh;
+}
